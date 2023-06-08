@@ -1,0 +1,27 @@
+{
+    "name": "spike/number-to-word",
+    "description": "A PHP package for converting numbers to words.",
+    "license": "MIT",
+    "type": "package",
+    "keywords": [
+        "numbers",
+        "words"
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Spike\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pacspike",
+            "email": "pacspike@gmail.com"
+        }
+    ]
+}
