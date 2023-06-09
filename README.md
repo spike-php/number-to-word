@@ -18,7 +18,7 @@ command to install the package and add it as a requirement to your project's
 composer require spike/number-to-word
 ```
 
-## Upgrading to Version 1.0.0
+## Upgrading to Version 1.0.3
 
 ## Uses
 
