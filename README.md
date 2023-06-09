@@ -25,7 +25,12 @@ composer require spike/number-to-word
 ```bash
 use Spike\AmountToWord;
 
-$amountToWord = new AmountToWord();
+$transform = new TransformWord();
 
-echo $amountToWord->toWord(200.55);
+echo $transform->toWord(522525.25);
+```
+## Output
+```bash
+Five Lac Twenty-Two Thousands Five Hundred  and Twenty-Five  And Two Five Paisa
+
 ```
