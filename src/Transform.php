@@ -54,7 +54,7 @@ class Transform
      */
     private function beforeDotAmount(float $amount, int $counter, string|null $addPlural, string|null $amtHundred): string
     {
-        return $amount < 21 ? Word::NUM_WORDS[$amount] . ' ' . Digit::ALL_DIGITS[$counter] . $addPlural . ' ' . $amtHundred : Word::NUM_WORDS[floor($amount / 10) * 10] . '-' . Word::NUM_WORDS[$amount % 10] . ' ' . Digit::ALL_DIGITS[$counter] . $addPlural . ' ' . $amtHundred;
+        return $amount < 21 ? Word::NUM_WORDS[$amount] . ' ' . Digit::ALL_DIGITS[$counter] . $addPlural . ' ' . $amtHundred : Word::NUM_WORDS[floor($amount / 10) * 10] . ' ' . Word::NUM_WORDS[$amount % 10] . ' ' . Digit::ALL_DIGITS[$counter] . $addPlural . ' ' . $amtHundred;
     }
 
     /**
