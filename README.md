@@ -31,6 +31,6 @@ echo $transform->toWord(522525.25);
 ```
 ## Output
 ```bash
-Five Lac Twenty-Two Thousands Five Hundred  and Twenty-Five  And Two Five Paisa
+Five Lac Twenty Two Thousands Five Hundred  and Twenty Five  And Two Five Paisa
 
 ```
